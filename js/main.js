@@ -1277,10 +1277,10 @@ document.addEventListener("DOMContentLoaded", function () {
         "leads", //experience
         "documentation", //works
         "process", //services
-        "recognition", //
-        "testimonials",
-        "blog",
-        "contacts",
+        "prototype", //recognition
+        "testing", //testimonials
+        "result", //blog
+        "team", //contacts
       ];
 
       // function setLabel(index) {
