@@ -1274,10 +1274,10 @@ document.addEventListener("DOMContentLoaded", function () {
       const anchors = [
         "home",
         "about",
-        "experience",
-        "works",
-        "services",
-        "recognition",
+        "leads", //experience
+        "documentation", //works
+        "process", //services
+        "recognition", //
         "testimonials",
         "blog",
         "contacts",
@@ -1624,7 +1624,7 @@ let swiper2 = new Swiper('.swiper-container2', {
     );
   }
   document.addEventListener('DOMContentLoaded', function () {
-    if (document.querySelector('.section__services')) {
+    if (document.querySelector('.section__process')) {
       var i = function () {
           o() && !l
             ? ((l = !0),
@@ -1745,8 +1745,8 @@ let swiper2 = new Swiper('.swiper-container2', {
             (c.active = null),
             (c.inited = []);
         });
-      var s = document.querySelector('.js-services-tabs'),
-        a = ((f = document.querySelectorAll('.js-services-item')),
+      var s = document.querySelector('.js-process-tabs'),
+        a = ((f = document.querySelectorAll('.js-process-item')),
         (function (t) {
           if (Array.isArray(t)) return e(t);
         })(f) ||
@@ -1779,8 +1779,8 @@ let swiper2 = new Swiper('.swiper-container2', {
           })()).map(function (e) {
           return {
             container: e,
-            control: e.querySelector('.js-services-control'),
-            content: e.querySelector('.js-services-content'),
+            control: e.querySelector('.js-process-control'),
+            content: e.querySelector('.js-process-content'),
           };
         }),
         l = !o();
