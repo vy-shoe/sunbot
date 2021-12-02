@@ -3756,6 +3756,10 @@ button.swiper-pagination-bullet {
         flex-direction: column-reverse;
     }
 }
+.pitch-deck {
+    margin-bottom: 20px;;
+}
+
 .pitch {
     display: -webkit-box;
 
@@ -3965,7 +3969,7 @@ button.swiper-pagination-bullet {
 
         -moz-column-gap: 40px;
 
-        column-gap: 40px;
+        column-gap: 10px;
 
         grid-template-areas: "title inner" "contact-me inner";
     }
@@ -4108,7 +4112,7 @@ button.swiper-pagination-bullet {
     }
 }
 .prototype__resource-list:last-child {
-    margin-right: 100px;
+    margin-right: 50px;
 }
 @media only screen and (max-width: 1559px) {
     .prototype__resource-list:last-child {
@@ -4117,7 +4121,7 @@ button.swiper-pagination-bullet {
 }
 @media only screen and (max-width: 1200px) {
     .prototype__resource-list:last-child {
-        margin-right: 80px;
+        margin-right: 50px;
     }
 }
 @media only screen and (max-width: 768px) {
@@ -4409,7 +4413,7 @@ button.swiper-pagination-bullet {
         flex-direction: column;
     }
 }
-.team__team {
+.team {
     display: -webkit-box;
 
     display: -ms-flexbox;
@@ -4427,7 +4431,7 @@ button.swiper-pagination-bullet {
     width: 70%;
 }
 @media only screen and (max-width: 768px) {
-    .team__team {
+    .team {
         width: 100%;
 
         margin-bottom: 50px;
@@ -4540,30 +4544,30 @@ button.swiper-pagination-bullet {
         width: 100%;
     }
 }
-.team__follow-link-wrapper {
+.project-link-wrapper {
     cursor: pointer;
 }
-.team__follow-link-wrapper:not(:last-child) {
+.project-link-wrapper:not(:last-child) {
     margin-bottom: 20px;
 }
 @media only screen and (max-width: 1200px) {
-    .team__follow-link-wrapper:not(:last-child) {
+    .project-link-wrapper:not(:last-child) {
         margin-bottom: 10px;
     }
 }
 @media only screen and (max-width: 768px) {
-    .team__follow-link-wrapper:not(:last-child) {
+    .project-link-wrapper:not(:last-child) {
         margin-bottom: 5px;
     }
 }
-.team__follow-link {
+.project-link {
     position: relative;
 
     position: relative;
 
     text-transform: none;
 }
-.team__follow-link::after {
+.project-link::after {
     content: "";
 
     position: absolute;
@@ -4582,7 +4586,7 @@ button.swiper-pagination-bullet {
 
     transition: background-color ease 0.3s;
 }
-.team__follow-link:hover::after {
+.project-link:hover::after {
     background-color: #fffcf9;
 }
 .team__private {
