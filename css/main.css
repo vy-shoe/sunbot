@@ -1793,7 +1793,7 @@ body {
 
 @media only screen and (max-width: 450px) {
     .manrope-text2 {
-        font-size: 11px;
+        font-size: 9px;
     }
 }
 .text {
@@ -3979,36 +3979,36 @@ button.swiper-pagination-bullet {
 }
 @media only screen and (max-width: 1200px) {
     .prototype__title {
-        margin-bottom: 60px;
+        margin-bottom: 20px;
     }
 }
 @media only screen and (max-width: 768px) {
     .prototype__title {
-        margin-bottom: 40px;
+        margin-bottom: 10px;
     }
 }
-.prototype__contact-me {
+.prototype__desc {
     max-width: 330px;
 
     grid-area: contact-me;
 }
 @media only screen and (max-width: 1200px) {
-    .prototype__contact-me {
+    .prototype__desc {
         padding-bottom: 30px;
     }
 }
-.prototype__contact-text {
+.prototype__desc-text {
     margin-bottom: 6.48148vh;
 
     color: #c2c2c2;
 }
 @media only screen and (max-width: 768px) {
-    .prototype__contact-text {
+    .prototype__desc-text {
         margin-bottom: 40px;
     }
 }
 @media only screen and (max-width: 450px) {
-    .prototype__contact-text {
+    .prototype__desc-text {
         font-size: 12px;
     }
 }
@@ -4084,7 +4084,7 @@ button.swiper-pagination-bullet {
         width: 100%;
     }
 }
-.prototype__resource {
+.prototype__steps {
     display: -webkit-box;
 
     display: -ms-flexbox;
@@ -4098,12 +4098,12 @@ button.swiper-pagination-bullet {
     justify-content: space-between;
 }
 @media only screen and (max-width: 1200px) {
-    .prototype__resource {
+    .prototype__steps {
         margin-bottom: 90px;
     }
 }
 @media only screen and (max-width: 620px) {
-    .prototype__resource {
+    .prototype__steps {
         -ms-flex-wrap: wrap;
 
         flex-wrap: wrap;
@@ -4111,50 +4111,50 @@ button.swiper-pagination-bullet {
         margin-bottom: 60px;
     }
 }
-.prototype__resource-list:last-child {
+.prototype__steps-list:last-child {
     margin-right: 50px;
 }
 @media only screen and (max-width: 1559px) {
-    .prototype__resource-list:last-child {
+    .prototype__steps-list:last-child {
         margin-right: 0;
     }
 }
 @media only screen and (max-width: 1200px) {
-    .prototype__resource-list:last-child {
+    .prototype__steps-list:last-child {
         margin-right: 50px;
     }
 }
 @media only screen and (max-width: 768px) {
-    .prototype__resource-list:last-child {
+    .prototype__steps-list:last-child {
         margin-right: 0;
     }
 }
 @media only screen and (max-width: 450px) {
-    .prototype__resource-list:nth-child(2) {
+    .prototype__steps-list:nth-child(2) {
         margin-right: 0;
     }
 }
 @media only screen and (max-width: 620px) {
-    .prototype__resource-list:not(:last-child) {
+    .prototype__steps-list:not(:last-child) {
         margin-right: 40px;
 
         margin-bottom: 50px;
     }
 }
 @media only screen and (max-width: 450px) {
-    .prototype__resource-list:not(:last-child) {
+    .prototype__steps-list:not(:last-child) {
         margin-right: 40px;
     }
 }
 @media only screen and (max-width: 350px) {
-    .prototype__resource-list:not(:last-child) {
+    .prototype__steps-list:not(:last-child) {
         margin-right: 10px;
     }
 }
-.prototype__resource-list a {
+.prototype__steps-list a {
     position: relative;
 }
-.prototype__resource-list a::after {
+.prototype__steps-list a::after {
     content: "";
 
     position: absolute;
@@ -4173,22 +4173,22 @@ button.swiper-pagination-bullet {
 
     transition: background-color ease 0.3s;
 }
-.prototype__resource-list a:hover::after {
+.prototype__steps-list a:hover::after {
     background-color: #fffcf9;
 }
-.prototype__resource-list-title {
+.prototype__steps-list-title {
     margin-bottom: 40px;
 }
 @media only screen and (max-width: 1000px) {
-    .prototype__resource-list-title {
+    .prototype__steps-list-title {
         margin-bottom: 20px;
     }
 }
-.prototype__resource-list-item:not(:last-child) {
+.prototype__steps-list-item:not(:last-child) {
     margin-bottom: 30px;
 }
 @media only screen and (max-width: 1000px) {
-    .prototype__resource-list-item:not(:last-child) {
+    .prototype__steps-list-item:not(:last-child) {
         margin-bottom: 10px;
     }
 }
@@ -4751,9 +4751,9 @@ button.swiper-pagination-bullet {
 
     -webkit-box-flex: 1;
 
-    -ms-flex: 1 0 auto;
+    -ms-flex: 1 1 auto;
 
-    flex: 1 0 auto;
+    flex: 1 1 auto;
 
     max-width: 324px;
 }
@@ -4806,7 +4806,7 @@ button.swiper-pagination-bullet {
     .process__tab-img-wrapper {
         position: relative;
 
-        margin-bottom: 40px;
+        margin-bottom: 20px;
     }
     .process__tab-img-wrapper::after {
         content: "";
@@ -4817,7 +4817,8 @@ button.swiper-pagination-bullet {
     }
 }
 .process__tab-img {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 @media only screen and (max-width: 1000px) {
     .process__tab-img {
@@ -4845,7 +4846,7 @@ button.swiper-pagination-bullet {
 }
 @media only screen and (max-width: 450px) {
     .process__tab-desc {
-        font-size: 12px;
+        font-size: 10px;
     }
 }
 .result__container {
@@ -4888,6 +4889,7 @@ button.swiper-pagination-bullet {
 }
 .result__card {
     display: block;
+    margin: 10px 40px 10px;
 }
 .result__card-md {
     max-width: 688px;
@@ -4917,14 +4919,14 @@ button.swiper-pagination-bullet {
 }
 @media only screen and (max-width: 768px) {
     .result__card-img {
-        max-width: 300px;
+        max-width: 600px;
 
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
 }
 @media only screen and (max-width: 450px) {
     .result__card-img {
-        max-width: 200px;
+        max-width: 300px;
 
         height: 300px;
     }
@@ -5016,7 +5018,7 @@ button.swiper-pagination-bullet {
     display: flex;
 }
 .testing__title {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 
     text-align: center;
 }
@@ -5067,7 +5069,7 @@ button.swiper-pagination-bullet {
 }
 @media only screen and (max-width: 1000px) {
     .testing__img-wrapper {
-        width: 324px;
+        width: 104px;
 
         margin-right: 0;
 
@@ -5076,7 +5078,7 @@ button.swiper-pagination-bullet {
 }
 @media only screen and (max-width: 450px) {
     .testing__img-wrapper {
-        max-width: 300px;
+        max-width: 100px;
 
         margin-bottom: 10px;
     }
