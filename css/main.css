@@ -5114,7 +5114,7 @@ button.swiper-pagination-bullet {
 
     max-width: 870px;
 
-    height: 580px;
+    height: 500px;
 
     padding: 70px;
 
@@ -5126,7 +5126,7 @@ button.swiper-pagination-bullet {
 
         height: auto;
 
-        min-height: 588px;
+        min-height: 400px;
 
         margin-bottom: 20px;
 
@@ -5137,7 +5137,7 @@ button.swiper-pagination-bullet {
     .testing__content {
         height: auto;
 
-        min-height: 420px;
+        min-height: 300px;
 
         margin-bottom: 20px;
 
@@ -5150,7 +5150,7 @@ button.swiper-pagination-bullet {
 
         height: auto;
 
-        min-height: 408px;
+        min-height: 250px;
 
         margin-bottom: 20px;
 
@@ -5163,7 +5163,7 @@ button.swiper-pagination-bullet {
 
         height: auto;
 
-        min-height: 314px;
+        min-height: 200px;
 
         margin-bottom: 20px;
 
