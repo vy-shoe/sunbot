@@ -4383,16 +4383,16 @@ button.swiper-pagination-bullet {
     }
 }
 .team__title {
-    margin-bottom: 100px;
+    margin-bottom: 40px;
 }
 @media only screen and (max-width: 1200px) {
     .team__title {
-        margin-bottom: 60px;
+        margin-bottom: 30px;
     }
 }
 @media only screen and (max-width: 768px) {
     .team__title {
-        margin-bottom: 40px;
+        margin-bottom: 20px;
     }
 }
 .team__wrapper {
@@ -4437,34 +4437,34 @@ button.swiper-pagination-bullet {
         margin-bottom: 50px;
     }
 }
-.team__contact {
-    max-width: 383px;
+.team__pic {
+    max-width: 400px;
 }
 @media only screen and (max-width: 1559px) {
-    .team__contact {
-        max-width: 325px;
+    .team__pic {
+        max-width: 400px;
     }
 }
-.team__contact:not(:last-child) {
+.team__pic:not(:last-child) {
     margin-bottom: 100px;
 }
 @media only screen and (max-width: 1200px) {
-    .team__contact:not(:last-child) {
+    .team__pic:not(:last-child) {
         margin-bottom: 40px;
     }
 }
 @media only screen and (max-width: 768px) {
-    .team__contact:not(:last-child) {
+    .team__pic:not(:last-child) {
         margin-bottom: 30px;
     }
 }
-.team__contact-title {
+.team__proj-title {
     margin-bottom: 20px;
 
     color: #c2c2c2;
 }
 @media only screen and (max-width: 768px) {
-    .team__contact-title {
+    .team__proj-title {
         margin-bottom: 10px;
     }
 }
@@ -5114,7 +5114,7 @@ button.swiper-pagination-bullet {
 
     max-width: 870px;
 
-    height: 580px;
+    height: 500px;
 
     padding: 70px;
 
@@ -5126,7 +5126,7 @@ button.swiper-pagination-bullet {
 
         height: auto;
 
-        min-height: 588px;
+        min-height: 400px;
 
         margin-bottom: 20px;
 
@@ -5137,7 +5137,7 @@ button.swiper-pagination-bullet {
     .testing__content {
         height: auto;
 
-        min-height: 420px;
+        min-height: 300px;
 
         margin-bottom: 20px;
 
@@ -5150,7 +5150,7 @@ button.swiper-pagination-bullet {
 
         height: auto;
 
-        min-height: 408px;
+        min-height: 250px;
 
         margin-bottom: 20px;
 
@@ -5163,7 +5163,7 @@ button.swiper-pagination-bullet {
 
         height: auto;
 
-        min-height: 314px;
+        min-height: 200px;
 
         margin-bottom: 20px;
 
